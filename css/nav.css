@@ -1,0 +1,59 @@
+h1 {
+	font-size: 35px;
+	text-align: center;
+}
+
+nav {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+
+}
+
+nav a {
+	padding-bottom: 0px;
+	text-decoration: none;
+	text-align: center;
+	padding-right: 50px;
+	color: #125ace;
+}
+
+a {
+	color: #125ace;
+}
+
+a:hover {
+	color: orange;
+}
+
+nav a.highlight {
+	color: orange;
+	text-decoration: underline;
+}
+
+#about {
+	text-align: center;
+	display: table-cell;
+	vertical-align: top;
+	position: relative;
+	font-size: 14px;
+	float: left;
+	width: 25%;
+	height: 100%;
+	margin: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#links img {
+	width: 15%;
+	height: 15%;
+}
+
+body {
+	width: 65%;
+	margin: auto;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
