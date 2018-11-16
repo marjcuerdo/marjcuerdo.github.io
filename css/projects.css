@@ -13,8 +13,12 @@
 	text-decoration: none;
 }
 
+h3 {
+	text-align: center;
+}
+
 body {
-	background-color: #FFFAFA;
+	background-color: white;
 }
 #ux p {
 	font-size: 13px;
@@ -22,27 +26,40 @@ body {
 	text-align: right;
 }
 
-#ux h4 {
+#ux h3 {
 	text-align: left;
 }
 
 #dev {
-	margin-bottom: 10px;
+	margin-top: 10px;
 }
 #dev p {
 	font-size: 13px;
 	float: right;
 	text-align: right;
 }
-#dev h4 {
+#dev h3 {
 	text-align: left;
+}
+
+#ux {
+	margin-left: 0px;
 }
 
 .ux_content li {
 	list-style: none;
 	float: left;
+	padding: 20px;
 	width: 100%;
 	height: 100%;
+}
+
+.cont_1 {
+	background-color: #e2e6e9;
+}
+
+.cont_2 {
+	background-color: #f0f2f4;
 }
 
 .ux_content h5 {
@@ -52,7 +69,7 @@ body {
 }
 
 .ux_content img {
-	width: 50%;
+	width: 85%;
 	height: 100%;
 	float: left;
 	border: solid;
@@ -60,13 +77,18 @@ body {
 	border-color: rgb(211,211,211);
 }
 
+.ux_content img:hover {
+	border-color: orange;
+	border-width: 4px;
+}
+
 .ux_content p {
-	font-size: 10px;
-	
+	font-size: 12px;	
 }
 
 .dev_content li {
 	list-style: none;
+	padding: 20px;
 	float: left;
 	width: 100%;
 	height: 100%;
@@ -87,7 +109,21 @@ body {
 	border-color: rgb(211,211,211);
 }
 
+.dev_content img:hover {
+	border-color: orange;
+	border-width: 4px;
+}
+
 .dev_content p {
-	font-size: 10px;
+	font-size: 12px;
 	
+}
+
+.misc_content li {
+	list-style: none;
+	padding: 20px;
+	float: left;
+	width: 100%;
+	height: 100%;
+	font-size: 12px;	
 }
