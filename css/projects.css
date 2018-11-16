@@ -13,49 +13,39 @@
 }
 
 #ux {
-	width: 50%;
-	height: 100%;
-	float: left;
+	margin-bottom: 10px;
 }
-
-#dev {
-	width: 50%;
-	height: 100%;
+#ux p {
+	font-size: 13px;
 	float: right;
-}
-
-#misc {
-	width: 50%;
-	height: 100%;
-	float: left;
+	text-align: right;
 }
 
 #ux h4 {
-	text-align: center;
+	text-align: left;
 }
 
 #dev h4 {
-	text-align: center;
+	text-align: left;
 }
 
 .ux_content li {
 	list-style: none;
-	margin-right: 15px;
-	width: 50%;
+	float: left;
+	width: 100%;
 	height: 100%;
 }
 
 .ux_content h5 {
 	font-size: 13px;
-	text-align: center;
+	text-align: left;
 	margin: 10px;
 }
 
 .ux_content img {
-	width: 100%;
+	width: 50%;
 	height: 100%;
-
-	vertical-align: bottom;
+	float: left;
 	border: solid;
 	border-width: 1px;
 	border-color: rgb(211,211,211);
