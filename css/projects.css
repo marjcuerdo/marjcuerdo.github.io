@@ -1,3 +1,4 @@
+
 #projects {
 	width: 65%;
 	float: right;
@@ -6,14 +7,14 @@
 #container {
 	padding-top: 10px;
 	width: 100%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	display: table-cell;
 	text-align: center;
 	text-decoration: none;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#ux {
-	margin-bottom: 10px;
+body {
+	background-color: #F5F5F5;
 }
 #ux p {
 	font-size: 13px;
@@ -25,6 +26,14 @@
 	text-align: left;
 }
 
+#dev {
+	margin-bottom: 10px;
+}
+#dev p {
+	font-size: 13px;
+	float: right;
+	text-align: right;
+}
 #dev h4 {
 	text-align: left;
 }
@@ -52,6 +61,33 @@
 }
 
 .ux_content p {
+	font-size: 10px;
+	
+}
+
+.dev_content li {
+	list-style: none;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+.dev_content h5 {
+	font-size: 13px;
+	text-align: left;
+	margin: 10px;
+}
+
+.dev_content img {
+	width: 50%;
+	height: 100%;
+	float: left;
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(211,211,211);
+}
+
+.dev_content p {
 	font-size: 10px;
 	
 }
