@@ -20,7 +20,7 @@ document.write('\<link rel="stylesheet" href="css/nav.css">\
 							<div id="links">\
 								<a href="https://www.linkedin.com/in/marjorie-ann-cuerdo-12979277/" target="_blank"><img src="images/linkedin.png" ></a>\
 								<a href="https://twitter.com/marj_cuerdo" target="_blank"><img src="images/twitter.png"></a>\
-								<a href="https://github.com/mcuerdo" target="_blank"><img src="images/github.png"></a>\
+								<a href="https://github.com/marjcuerdo" target="_blank"><img src="images/github.png"></a>\
 							</div>\
 						</div>\
 					</div>\
