@@ -1,7 +1,7 @@
 document.write('\<link rel="stylesheet" href="css/nav.css">\
 	<nav id="nav">\
 			<h1>Marjorie Ann Cuerdo</h1>\
-			<a href="index.html">ABOUT</a>\
+			<a href="index.html">HOME</a>\
 			<a href="projects.html">PROJECTS</a>\
 			<a href="resume.html">RESUME</a>\
 			<a href="blog.html">BLOG</a>\
