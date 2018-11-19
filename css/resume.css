@@ -12,6 +12,10 @@ body {
 	text-align: left;
 }
 
+.skills {
+	text-align: center;
+}
+
 ul {
 	padding: 0;
 }
@@ -24,9 +28,9 @@ ul li {
 	text-align: left;
 	padding: 20px;
 }
-
 .cont_2 {
 	background-color: #f0f2f4;
+
 	text-align: left;
 	padding: 20px;
 }
@@ -42,4 +46,19 @@ ul li {
 
 h3 {
 	text-align: center;
+}
+
+#resume img {
+	float: left;
+}
+.depaul img {
+	width: 12%;
+	height: 12%;
+}
+
+.uofr img {
+	width: 9%;
+	height: 9%;
+	margin-left: 10px;
+	margin-right: 10px;
 }
