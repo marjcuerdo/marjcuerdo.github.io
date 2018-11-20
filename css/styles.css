@@ -8,6 +8,11 @@ body {
 	height: 10%;
 }
 
+.desc img {
+	width: 75%;
+	height: 75%;
+}
+
 #container {
 	padding-top: 10px;
 	width: 100%;
