@@ -22,7 +22,7 @@ ul {
 ul li {
 	list-style: none;
 }
-.with_style {
+.with_style li {
 	list-style: disc;
 }
 
