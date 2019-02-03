@@ -22,6 +22,9 @@ ul {
 ul li {
 	list-style: none;
 }
+.with_style {
+	list-style: disc;
+}
 
 .cont_1 {
 	background-color: #e2e6e9;
