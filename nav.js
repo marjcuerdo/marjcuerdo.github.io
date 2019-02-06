@@ -1,11 +1,16 @@
-document.write('\<link rel="stylesheet" href="css/nav.css">\
-	<nav id="nav">\
-			<h1>Marjorie Ann Cuerdo</h1>\
-			<a href="index.html">HOME</a>\
-			<a href="projects.html">PROJECTS</a>\
-			<a href="resume.html">RESUME</a>\
-			<a href="blog.html">BLOG</a>\
-		</nav>\
+document.write('\<link rel="stylesheet" href="css/nav.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">\
+	<div class="topnav" id="myTopnav">\
+		<h1>Marjorie Ann Cuerdo</h1>\
+				<a href="javascript:void(0);" id="icon" onclick="myFunction()">\
+	    			<i class="fa fa-bars"></i>\
+	    		</a>\
+			<div id="myLinks">\
+				<a href="index.html">HOME</a>\
+				<a href="projects.html">PROJECTS</a>\
+				<a href="resume.html">RESUME</a>\
+				<a href="blog.html">BLOG</a>\
+			</div>\
+    </div>\
 		<section id="about" name="about">\
 			<div class="about">\
 				<div class="container">\
@@ -29,3 +34,14 @@ document.write('\<link rel="stylesheet" href="css/nav.css">\
 			</div>\
 		</section>');
 
+
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "inline-block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "inline-block";
+  }
+
+}

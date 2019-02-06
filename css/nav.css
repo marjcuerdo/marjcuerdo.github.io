@@ -2,18 +2,21 @@ body {
 	background-color: #F5F5F5;
 }
 
+.topnav a#icon {
+	display: none;
+}
+
 h1 {
-	font-size: 35px;
+	font-size: 30px;
 	text-align: center;
 }
 
-nav {
+.topnav {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 20px;
-
 }
 
-nav a {
+.topnav a {
 	padding-bottom: 0px;
 	text-decoration: none;
 	text-align: center;
@@ -21,15 +24,11 @@ nav a {
 	color: #125ace;
 }
 
-a {
-	color: #125ace;
-}
-
-a:hover {
+.topnav a:hover {
 	color: orange;
 }
 
-nav a.highlight {
+.topnav a.highlight {
 	color: orange;
 	text-decoration: underline;
 }
@@ -55,9 +54,55 @@ nav a.highlight {
 }
 
 body {
-	width: 65%;
 	margin: auto;
+	width: 65%;
 	text-align: center;
 	text-decoration: none;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+@media screen and (min-width: 601px) {
+	.topnav #myLinks {
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 30px;
+		float: left;
+		vertical-align: top;
+		margin-top: 10px;
+		text-align: center;
+	}
+	.topnav #myLinks {
+		display: none;
+
+	}
+
+	.topnav {
+		overflow: hidden;
+		position: relative;
+		display: block;
+	}
+
+	.topnav a#icon{
+		right: 0;
+		top: 15px;
+		display: block;
+		position: relative;
+	}
+
+	.topnav a {
+		padding: 0px;
+		display: block;
+	}
+
+}
+
+
+
+
+
+
+

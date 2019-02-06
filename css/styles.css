@@ -2,10 +2,6 @@ body {
 	background-color: #F5F5F5;
 }
 
-@media screen and (max-width: 481px) {
-	text-align: center;	
-}
-
 #links img {
 	width: 5%;
 	height: 10%;
