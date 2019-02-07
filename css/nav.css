@@ -69,7 +69,7 @@ body {
 
 @media screen and (max-width: 600px) {
 	h1 {
-		font-size: 23px;
+		font-size: 22px;
 		float: left;
 		vertical-align: top;
 		margin-top: 10px;
@@ -82,14 +82,12 @@ body {
 
 	.topnav {
 		overflow: hidden;
-		position: relative;
 		display: block;
 	}
 
 	.topnav a#icon{
 		float:right;
 		display: block;
-		position: relative;
 		padding: 10px;
 	}
 
@@ -103,10 +101,9 @@ body {
 	}
 
 	#about {
+		top: 100%;
 		width: 100%;
-		margin-left: 0;
 	}
-
 }
 
 
