@@ -1,9 +1,11 @@
 document.write('\<link rel="stylesheet" href="css/nav.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">\
 	<div class="topnav" id="myTopnav">\
+		<div class="topbar">\
 		<h1>Marjorie Ann Cuerdo</h1>\
 				<a href="javascript:void(0);" id="icon" onclick="myFunction()">\
 	    			<i class="fa fa-bars"></i>\
 	    		</a>\
+	    </div>\
 			<div id="myLinks">\
 				<a href="index.html">HOME</a>\
 				<a href="projects.html">PROJECTS</a>\
