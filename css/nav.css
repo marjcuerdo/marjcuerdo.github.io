@@ -31,6 +31,7 @@ h1 {
 .topnav a.highlight {
 	color: orange;
 	text-decoration: underline;
+	font-weight: bold;
 }
 
 #about {
@@ -67,7 +68,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 	h1 {
 		font-size: 22px;
 		float: left;
@@ -77,32 +78,47 @@ body {
 	}
 	.topnav #myLinks {
 		display: none;
-
+		background-color: #9370DB;
+		width: 100%;
 	}
 
 	.topnav {
-		overflow: hidden;
-		display: block;
+		position: fixed;
+		width: 100%;
+	    left: 0;
+	    top: 0;
+	    z-index: 100;
+	    border-top: 0;
+    	background-color: #483D8B;
+    	color: white;
+
 	}
 
 	.topnav a#icon{
 		float:right;
 		display: block;
 		padding: 10px;
+		color: white;
 	}
 
 	.topbar {
 		display: inline-block;
+
 	}
 
 	.topnav a {
 		padding: 0px;
 		display: block;
+		color: white;
 	}
 
 	#about {
 		top: 100%;
 		width: 100%;
+		position: relative;
+		margin-left: 0;
+		left: 0;
+		right: 0;
 	}
 }
 
