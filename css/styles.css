@@ -12,13 +12,22 @@ body {
 	height: 75%;
 }
 
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
 #container {
 	padding-top: 10px;
-	width: 100%;
+
+
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	display: table-cell;
 	text-align: center;
 	text-decoration: none;
+}
+
+#bio {
+	width: 65%;
+		float: right;
 }
 
 .desc {
@@ -49,22 +58,28 @@ h3 {
 }
 
 @media screen and (max-width: 800px) {
-	#bio {
+	.wrapper {
+		
 		width: 100%;
-		left: 0;
+		left:0;
 		right: 0;
 		position: absolute;
 	}
 
-	.container {
+	#bio {
+		margin-top: 50px;
 		width: 100%;
-		height: 100%;
+		float: none;
+		left:0;
+		right: 0;
 	}
 
-	html, body {
+	.container {
 		width: 100%;
-		height: 100%;
-		margin: 0;
+		float: none;
 	}
+
+
+
 
 }

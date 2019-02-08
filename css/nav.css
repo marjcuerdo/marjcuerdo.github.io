@@ -50,8 +50,8 @@ h1 {
 }
 
 #links img {
-	width: 15%;
-	height: 15%;
+	width: 25%;
+	height: 25%;
 }
 
 body {
@@ -72,8 +72,6 @@ body {
 	h1 {
 		font-size: 22px;
 		float: left;
-		vertical-align: top;
-		margin-top: 10px;
 		text-align: center;
 	}
 	.topnav #myLinks {
@@ -97,7 +95,7 @@ body {
 	.topnav a#icon{
 		float:right;
 		display: block;
-		padding: 10px;
+		padding: 15px;
 		color: white;
 	}
 
@@ -113,12 +111,22 @@ body {
 	}
 
 	#about {
-		top: 100%;
+		font-size: 18px;
 		width: 100%;
 		position: relative;
 		margin-left: 0;
 		left: 0;
 		right: 0;
+	}
+
+	#links img {
+	width: 15%;
+	height: 15%;
+	}
+
+	#pic {
+		width: 35%;
+		height: 35%;
 	}
 }
 

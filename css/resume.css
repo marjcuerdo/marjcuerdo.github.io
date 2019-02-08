@@ -6,6 +6,8 @@ body {
 	padding-top: 5px;
 	text-decoration: none;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	float: right;
+	width: 65%
 }
 
 #resume p {
@@ -66,13 +68,18 @@ h3 {
 	margin-right: 10px;
 }
 
-@media screen and (max-width: 600px) {
-	#outside-cont {
+@media screen and (max-width: 800px) {
+	.wrapper {
 		width: 100%;
-		left: 0;
+		left:0;
 		right: 0;
 		position: absolute;
+	}
 
+	#resume {
+		margin-top: 50px;
+		width: 100%;
+		float: none;
 	}
 	
 
