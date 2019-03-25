@@ -9,6 +9,12 @@ body {
 h1 {
 	font-size: 30px;
 	text-align: center;
+	background-color: #483D8B;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px;
+	margin: 0px;
 }
 
 .topnav {
