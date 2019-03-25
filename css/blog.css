@@ -3,7 +3,10 @@ body {
 }
 
 #date {
-	font-style: italic;
+	text-decoration: underline;
+	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+	font-size: 14px; 
+	color: 	#4B0082;
 }
 
 #blog {
