@@ -2,6 +2,10 @@ body {
 	background-color: #F5F5F5;
 }
 
+a {
+		color: #125ace;
+}
+
 #date {
 	text-decoration: underline;
 	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
