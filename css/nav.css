@@ -26,7 +26,9 @@ h1 {
 	padding-bottom: 0px;
 	text-decoration: none;
 	text-align: center;
-	padding-right: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 10px;
 	color: #125ace;
 }
 
@@ -38,6 +40,7 @@ h1 {
 	color: orange;
 	text-decoration: underline;
 	font-weight: bold;
+	background-color: rgba(72, 61, 139, 1);
 }
 
 #about {
