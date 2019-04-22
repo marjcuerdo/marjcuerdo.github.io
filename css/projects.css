@@ -55,6 +55,13 @@ ul {
 	padding: 0;
 }
 
+.list_details {
+	display: flex;
+	flex-direction: column;
+	list-style-type: circle;
+	text-align: left;
+}
+
 .ux_content {
 	width: 100%;
 	height: 100%;
