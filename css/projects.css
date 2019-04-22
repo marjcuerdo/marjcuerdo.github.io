@@ -59,7 +59,9 @@ ul {
 	display: flex;
 	flex-direction: column;
 	list-style-type: circle;
-	text-align: left;
+	text-align: center;
+	margin: 0;
+	width: 100%;
 }
 
 .ux_content {
@@ -181,5 +183,15 @@ ul {
 	.misc_content {
 		width: 100%;
 		height: 100%;
+	}
+
+	.list_details {
+		display: flex;
+		flex-direction: column;
+		list-style-type: circle;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		width: 100%;
 	}
 }
