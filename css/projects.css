@@ -74,6 +74,12 @@ ul {
 	padding: 20px;
 }
 
+.ux_content .cont_1 img{
+	width: 65%;
+	height: 50%;
+	float: left;
+}
+
 .cont_1 {
 	background-color: #e2e6e9;
 }
