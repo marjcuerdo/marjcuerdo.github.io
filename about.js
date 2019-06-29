@@ -11,9 +11,9 @@ document.write('<section id="about" name="about">\
 								<p>Email: <a href="mailto:mcuerdo@mail.depaul.edu">mcuerdo@mail.depaul.edu</a><br></p>\
 							</div>\
 							<div id="links">\
-								<a href="https://www.linkedin.com/in/marjorie-ann-cuerdo-12979277/" target="_blank"><img src="images/linkedin.png" ></a>\
 								<a href="https://twitter.com/marj_cuerdo" target="_blank"><img src="images/twitter.png"></a>\
 								<a href="https://github.com/marjcuerdo" target="_blank"><img src="images/github.svg"></a>\
+								<a href="https://www.linkedin.com/in/marjorie-ann-cuerdo-12979277/" target="_blank"><img src="images/linkedin.png" ></a>\
 							</div>\
 						</div>\
 					</div>\

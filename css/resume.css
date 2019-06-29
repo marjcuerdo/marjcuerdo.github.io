@@ -6,6 +6,10 @@ a {
 		color: #125ace;
 }
 
+a:hover {
+		color: orange;
+}
+
 #resume {
 	padding-top: 5px;
 	text-decoration: none;

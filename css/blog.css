@@ -6,6 +6,10 @@ a {
 		color: #125ace;
 }
 
+a:hover {
+		color: orange;
+}
+
 #date {
 	text-decoration: underline;
 	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;

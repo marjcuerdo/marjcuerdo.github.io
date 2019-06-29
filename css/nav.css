@@ -59,8 +59,8 @@ h1 {
 }
 
 #links img {
-	width: 25%;
-	height: 25%;
+	width: 50px;
+	height: 50px;
 }
 
 body {
@@ -129,8 +129,8 @@ body {
 	}
 
 	#links img {
-	width: 15%;
-	height: 15%;
+	width: 50px;
+	height: 50px;
 	}
 
 	#pic {
