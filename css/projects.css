@@ -117,6 +117,17 @@ ul {
 	float: left;
 }
 
+.res_content .cont_3 img:hover {
+	border-color: none;
+	border-width: 0px;
+}
+
+.res_content .cont_3 img {
+	width: 60%;
+	height: 60%;
+	float: left;
+}
+
 .ux_content h5 {
 	font-size: 13px;
 	text-align: left;
