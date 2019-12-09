@@ -20,6 +20,10 @@ a:hover {
 		color: orange;
 }
 
+h2 {
+	color: #483D8B;
+}
+
 h3 {
 	text-align: center;
 }
@@ -27,10 +31,19 @@ h3 {
 body {
 	background-color: white;
 }
+#pub p {
+	font-size: 13px;
+	float: left;
+	text-align: left;
+}
+
+#pub h3 {
+	text-align: left;
+}
 #res p {
 	font-size: 13px;
 	float: right;
-	text-align: right;
+	text-align: left;
 }
 
 #res h3 {
@@ -40,7 +53,7 @@ body {
 #ux p {
 	font-size: 13px;
 	float: right;
-	text-align: right;
+	text-align: left;
 }
 
 #ux h3 {
@@ -53,7 +66,7 @@ body {
 #dev p {
 	font-size: 13px;
 	float: right;
-	text-align: right;
+	text-align: left;
 }
 #dev h3 {
 	text-align: left;
@@ -86,6 +99,7 @@ ul {
 	list-style: none;
 	float: left;
 	padding: 20px;
+	margin-bottom: 15px;
 }
 
 .ux_content .cont_1 img{
@@ -128,6 +142,25 @@ ul {
 	float: left;
 }
 
+.pub_content .cont_3 img:hover {
+	border-color: none;
+	border-width: 0px;
+}
+
+.pub_content .cont_3 img {
+	width: 60%;
+	height: 60%;
+	float: left;
+}
+
+.pub_content li {
+	text-align: left;
+	list-style: none;
+	float: left;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
 .ux_content h5 {
 	font-size: 13px;
 	text-align: left;
@@ -156,6 +189,7 @@ ul {
 	list-style: none;
 	padding: 20px;
 	float: left;
+	margin-bottom: 15px;
 }
 
 .res_content h5 {
@@ -187,6 +221,7 @@ ul {
 	list-style: none;
 	padding: 20px;
 	float: left;
+	margin-bottom: 15px;
 }
 
 .dev_content h5 {
