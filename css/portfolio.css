@@ -48,7 +48,7 @@ body {
 	border-width: 0px;
 }
 
-.int_content .cont_1 img {
+.int_content img {
 	width: 50%;
 	height: 50%;
 	float: left;
@@ -62,7 +62,20 @@ body {
 	background-color: rgba(72, 61, 139, 1);
 }
 
+.int_content .cont_2 .click_link a {
+	text-align: left;
+	color: orange;
+	font-size: 15px;
+	padding: 15px;
+	background-color: rgba(72, 61, 139, 1);
+}
+
 .int_content .cont_1 .click_link a:hover {
+	color: rgba(72, 61, 139, 1);
+	background-color: orange;
+}
+
+.int_content .cont_2 .click_link a:hover {
 	color: rgba(72, 61, 139, 1);
 	background-color: orange;
 }
