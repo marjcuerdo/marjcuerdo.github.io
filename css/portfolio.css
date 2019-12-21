@@ -1,0 +1,194 @@
+
+#portfolio {
+	width: 100%;
+}
+
+#container {
+	width: 100%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	display: table-cell;
+	text-align: center;
+	text-decoration: none;
+}
+
+a {
+	color: #125ace;
+}
+
+a:hover {
+	color: orange;
+}
+
+h2 {
+	color: #483D8B;
+	text-align: left;
+	margin-left: 50px;
+}
+
+h3 {
+	text-align: left;
+}
+
+body {
+	background-color: white;
+}
+
+#int p {
+	font-size: 13px;
+	float: left;
+	text-align: left;
+}
+
+#int h3 {
+	text-align: left;
+}
+
+.int_content .cont_1 img:hover {
+	border-color: none;
+	border-width: 0px;
+}
+
+.int_content .cont_1 img {
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+
+.int_content .cont_1 .click_link a {
+	text-align: left;
+	color: orange;
+	font-size: 15px;
+	padding: 15px;
+	background-color: rgba(72, 61, 139, 1);
+}
+
+.int_content .cont_1 .click_link a:hover {
+	color: rgba(72, 61, 139, 1);
+	background-color: orange;
+}
+
+.int_content li {
+	text-align: left;
+	list-style: none;
+	float: left;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+.int_content h5 {
+	font-size: 13px;
+	text-align: left;
+	margin: 10px;
+}
+
+.int_content img:hover {
+	border-color: orange;
+	border-width: 4px;
+}
+
+.int_content p {
+	font-size: 12px;
+	width: 40%;
+	float: right;
+	padding-left: 20px;
+}
+
+#tech p {
+	font-size: 13px;
+	float: left;
+	text-align: left;
+}
+
+#tech h3 {
+	text-align: left;
+}
+
+.tech_content .cont_3 img:hover {
+	border-color: none;
+	border-width: 0px;
+}
+
+.tech_content .cont_3 img {
+	width: 60%;
+	height: 60%;
+	float: left;
+}
+
+.tech_content li {
+	text-align: left;
+	list-style: none;
+	float: left;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+
+ul {
+	padding: 0;
+}
+
+.list_details {
+	display: flex;
+	flex-direction: column;
+	list-style-type: circle;
+	text-align: center;
+	margin: 0;
+	width: 100%;
+}
+
+.cont_1 {
+	background-color: #e2e6e9;
+}
+
+.cont_2 {
+	background-color: #f0f2f4;
+}
+
+.cont_3 {
+	background-color: #f0f2f4;
+}
+
+@media screen and (max-width: 800px) {
+	.wrapper {
+		width: 100%;
+		left:0;
+		right: 0;
+		position: absolute;
+	}
+
+	#portfolio {
+		margin-top: 50px;
+		float: none;
+		width: 100%;
+	}
+	.int_content {
+		width: 100%;
+		height: 100%;
+	}
+	.tech_content {
+		width: 100%;
+		height: 100%;
+	}
+
+	.int_content .cont_1 img {
+		float: left;
+	}
+
+	.int_content p {
+		float: left;
+	}
+
+	.int_content .cont_1 .click_link a {
+		float: none;
+	}
+
+	.list_details {
+		display: flex;
+		flex-direction: column;
+		list-style-type: circle;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+}
