@@ -8,9 +8,9 @@ document.write('\<link rel="stylesheet" href="css/nav.css"><link rel="stylesheet
 	    </div>\
 			<div id="myLinks">\
 				<a href="index.html">HOME</a>\
-				<a href="projects.html">PROJECTS</a>\
         <a href="portfolio.html">PORTFOLIO</a>\
-				<a href="resume.html">RESUME</a>\
+				<a href="projects.html">PROJECTS</a>\
+				<a href="resume.html">RESUME/CV</a>\
 				<a href="blog.html">BLOG</a>\
 			</div>\
     </div>');

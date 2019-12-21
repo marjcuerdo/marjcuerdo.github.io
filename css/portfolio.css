@@ -58,7 +58,7 @@ body {
 	text-align: left;
 	color: orange;
 	font-size: 15px;
-	padding: 15px;
+	padding: 10px;
 	background-color: rgba(72, 61, 139, 1);
 }
 
@@ -66,8 +66,9 @@ body {
 	text-align: left;
 	color: orange;
 	font-size: 15px;
-	padding: 15px;
+	padding: 10px;
 	background-color: rgba(72, 61, 139, 1);
+
 }
 
 .int_content .cont_1 .click_link a:hover {
