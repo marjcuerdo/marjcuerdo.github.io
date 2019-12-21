@@ -18,6 +18,12 @@ h1 {
 	margin: 0px;
 }
 
+.subtitle {
+	font-size: 15px;
+	padding-right: 50px;
+	float: right;
+}
+
 .topnav {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 20px;
@@ -28,6 +34,7 @@ h1 {
 	text-align: center;
 	padding-left: 25px;
 	padding-right: 25px;
+	padding-top: 10px;
 	padding-bottom: 10px;
 	color: #125ace;
 }
@@ -37,6 +44,8 @@ h1 {
 }
 
 .topnav a.highlight {
+	padding-left: 10px;
+	padding-right: 10px;
 	color: orange;
 	text-decoration: underline;
 	font-weight: bold;
@@ -75,10 +84,6 @@ body {
 	.topnav #myLinks {
 		display: inline-block;
 	}
-}
-
-@media screen and (max-width: 800px) {
-
 }
 
 @media screen and (max-width: 800px) {
@@ -143,6 +148,11 @@ body {
 		height: 35%;
 	}
 
+.subtitle {
+	font-size: 11px;
+	padding-right: 0px;
+	padding-left: 25px;
+}
 
 }
 
