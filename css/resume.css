@@ -36,6 +36,29 @@ ul li {
 	list-style: disc;
 }
 
+.school a{
+	text-decoration: none;
+	color: black;
+}
+
+.school a:hover{
+	text-decoration: none;
+	color: orange;
+}
+
+.click_link a {
+	text-align: left;
+	color: orange;
+	font-size: 15px;
+	padding: 10px;
+	background-color: rgba(72, 61, 139, 1);
+}
+
+.click_link a:hover {
+	color: rgba(72, 61, 139, 1);
+	background-color: orange;
+}
+
 .cont_1 {
 	background-color: #e2e6e9;
 	text-align: left;
