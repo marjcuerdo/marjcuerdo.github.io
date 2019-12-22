@@ -24,7 +24,7 @@ h1 {
 
 .subtitle {
 	font-size: 15px;
-	padding-right: 50px;
+	padding-right: 30px;
 	float: right;
 }
 
@@ -131,7 +131,7 @@ body {
 	}
 
 	.topnav a {
-		padding: 5px;
+		padding: 10px;
 		display: block;
 		color: white;
 	}
@@ -159,7 +159,7 @@ body {
 .subtitle {
 	font-size: 11px;
 	padding-right: 0px;
-	padding-left: 25px;
+	padding-left: 15px;
 }
 
 }
