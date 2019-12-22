@@ -117,14 +117,25 @@ body {
 	text-align: left;
 }
 
-.tech_content .cont_3 img:hover {
+.tech_content .cont_2 img:hover {
 	border-color: none;
 	border-width: 0px;
 }
 
-.tech_content .cont_3 img {
-	width: 60%;
-	height: 60%;
+.tech_content .cont_2 img {
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+
+.tech_content .cont_1 img:hover {
+	border-color: none;
+	border-width: 0px;
+}
+
+.tech_content .cont_1 img {
+	width: 50%;
+	height: 50%;
 	float: left;
 }
 
@@ -135,6 +146,138 @@ body {
 	padding: 20px;
 	margin-bottom: 15px;
 }
+
+.tech_content p {
+	font-size: 12px;
+	width: 40%;
+	float: right;
+	padding-left: 20px;
+}
+
+.tech_content .cont_2 .left {
+	font-size: 12px;
+	width: 100%;
+	padding-left: 20px;
+}
+
+
+.tech_content .cont_1 .click_link a {
+	text-align: left;
+	color: orange;
+	font-size: 15px;
+	padding: 10px;
+	background-color: rgba(72, 61, 139, 1);
+}
+
+.tech_content .cont_2 .click_link a {
+	text-align: left;
+	color: orange;
+	font-size: 15px;
+	padding: 10px;
+	background-color: rgba(72, 61, 139, 1);
+
+}
+
+.tech_content .cont_1 .click_link a:hover {
+	color: rgba(72, 61, 139, 1);
+	background-color: orange;
+}
+
+.tech_content .cont_2 .click_link a:hover {
+	color: rgba(72, 61, 139, 1);
+	background-color: orange;
+}
+
+#button {
+	text-align: left;
+	color: orange;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: underline;
+	padding: 10px;
+	background-color: rgba(72, 61, 139, 1);
+}
+
+#button:hover {
+	color: rgba(72, 61, 139, 1);
+	background-color: orange;
+}
+
+
+#more p {
+	font-size: 13px;
+	float: left;
+	text-align: left;
+}
+
+#more h3 {
+	text-align: left;
+}
+.more_content .cont_1 img:hover {
+	border-color: none;
+	border-width: 0px;
+}
+
+.more_content .cont_1 img {
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+
+.more_content .cont_2 img:hover {
+	border-color: none;
+	border-width: 0px;
+}
+
+.more_content .cont_2 img {
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+
+.more_content li {
+	text-align: left;
+	list-style: none;
+	float: left;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+.more_content p {
+	font-size: 12px;
+	width: 40%;
+	float: right;
+	padding-left: 20px;
+}
+
+
+.more_content .cont_1 .click_link a {
+	text-align: left;
+	color: orange;
+	font-size: 15px;
+	padding: 10px;
+	background-color: rgba(72, 61, 139, 1);
+}
+
+.more_content .cont_2 .click_link a {
+	text-align: left;
+	color: orange;
+	font-size: 15px;
+	padding: 10px;
+	background-color: rgba(72, 61, 139, 1);
+
+}
+
+.more_content .cont_1 .click_link a:hover {
+	color: rgba(72, 61, 139, 1);
+	background-color: orange;
+}
+
+.more_content .cont_2 .click_link a:hover {
+	color: rgba(72, 61, 139, 1);
+	background-color: orange;
+}
+
 
 
 ul {

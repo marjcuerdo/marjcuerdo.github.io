@@ -47,6 +47,10 @@ h1 {
 	color: orange;
 }
 
+.invisible {
+	display: none;
+}
+
 .topnav a.highlight {
 	padding-left: 10px;
 	padding-right: 10px;
