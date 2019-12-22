@@ -97,6 +97,7 @@ body {
 @media screen and (max-width: 800px) {
 	h1 {
 		font-size: 22px;
+		padding-left: 20px;
 		float: left;
 		text-align: center;
 	}
@@ -159,8 +160,9 @@ body {
 .subtitle {
 	font-size: 11px;
 	padding-right: 0px;
-	padding-left: 10px;
+	padding-left: 3px;
 }
+
 
 }
 
