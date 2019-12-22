@@ -10,7 +10,7 @@ document.write('\<link rel="stylesheet" href="css/nav.css"><link rel="stylesheet
 				<a href="index.html">HOME</a>\
         <a href="portfolio.html">PORTFOLIO</a>\
 				<a href="projects.html">PROJECTS</a>\
-				<a href="resume.html">RESUME/CV</a>\
+				<a href="resume.html">RESUME/CURRICULUM VITAE</a>\
 				<a href="blog.html">BLOG</a>\
 			</div>\
     </div>');
