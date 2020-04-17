@@ -5,10 +5,10 @@ document.write('<section id="about" name="about">\
 							<div class="col-lg-6">\
 								<p><strong>About Me</strong></p>\
 								<p><img id="pic" src="images/cuerdo.jpg" alt="Picture of Marjorie" height="75%" width="75%" ></p>\
-								<p>M.S. HCI<br>DePaul University</p>\
+								<p>M.S. Human-Computer Interaction</p>\
 							</div>\
 							<div class="col-lg-6">\
-								<p>Email: <a href="mailto:mcuerdo@mail.depaul.edu">mcuerdo@mail.depaul.edu</a><br></p>\
+								<p><a href="mailto:mcuerdo@mail.depaul.edu">mcuerdo@mail.depaul.edu</a><br></p>\
 							</div>\
 							<div id="links">\
 								<a href="https://twitter.com/marj_cuerdo" target="_blank"><img src="images/twitter.png"></a>\

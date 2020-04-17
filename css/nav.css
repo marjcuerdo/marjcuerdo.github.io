@@ -33,9 +33,19 @@ h1 {
 	font-size: 20px;
 }
 
-.topnav a {
-	text-decoration: none;
+.topnav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 	text-align: center;
+}
+.topnav li {
+	display: inline;
+}
+
+.topnav li a {
+	display: inline-block;
+	text-decoration: none;
 	padding-left: 25px;
 	padding-right: 25px;
 	padding-top: 10px;
@@ -52,8 +62,6 @@ h1 {
 }
 
 .topnav a.highlight {
-	padding-left: 10px;
-	padding-right: 10px;
 	color: orange;
 	text-decoration: underline;
 	font-weight: bold;
@@ -65,7 +73,7 @@ h1 {
 	display: table-cell;
 	vertical-align: top;
 	position: relative;
-	font-size: 14px;
+	font-size: 11px;
 	float: left;
 	width: 25%;
 	height: 100%;
@@ -76,8 +84,9 @@ h1 {
 }
 
 #links img {
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
+	margin: 5px;
 }
 
 body {
@@ -97,9 +106,7 @@ body {
 @media screen and (max-width: 800px) {
 	h1 {
 		font-size: 22px;
-		padding-left: 20px;
 		float: left;
-		text-align: center;
 	}
 	.topnav #myLinks {
 		display: none;
@@ -108,10 +115,9 @@ body {
 	}
 
 	.topnav {
-		position: fixed;
 		width: 100%;
-	    left: 0;
-	    top: 0;
+		position: fixed;
+		left: 0;
 	    z-index: 100;
 	    border-top: 0;
     	background-color: #483D8B;
@@ -127,11 +133,12 @@ body {
 	}
 
 	.topbar {
+		width: 100%;
 		display: inline-block;
 		text-align: center;
 	}
 
-	.topnav a {
+	.topnav li a {
 		padding: 10px;
 		display: block;
 		color: white;
@@ -157,11 +164,11 @@ body {
 		height: 35%;
 	}
 
-.subtitle {
-	font-size: 11px;
-	padding-right: 0px;
-	padding-left: 3px;
-}
+	.subtitle {
+		font-size: 11px;
+		padding-right: 0px;
+		padding-left: 3px;
+	}
 
 
 }
