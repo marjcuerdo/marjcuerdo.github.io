@@ -50,6 +50,7 @@ h1 {
 	padding-right: 25px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	margin-top: 0px;
 	color: #125ace;
 }
 
@@ -105,7 +106,7 @@ body {
 
 @media screen and (max-width: 800px) {
 	h1 {
-		font-size: 22px;
+		font-size: 20px;
 		float: left;
 	}
 	.topnav #myLinks {
