@@ -107,6 +107,7 @@ body {
 @media screen and (max-width: 800px) {
 	h1 {
 		font-size: 20px;
+		text-align: left;
 		float: left;
 	}
 	.topnav #myLinks {
