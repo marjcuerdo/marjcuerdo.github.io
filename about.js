@@ -7,7 +7,7 @@ document.write('<section id="about" name="about">\
 								<p>M.S. Human-Computer Interaction</p>\
 							</div>\
 							<div class="col-lg-6">\
-								<p><a href="mailto:mcuerdo@mail.depaul.edu">mcuerdo@mail.depaul.edu</a><br></p>\
+								<p><a href="mailto:mcuerdo@depaul.edu">mcuerdo@depaul.edu</a><br></p>\
 							</div>\
 							<div id="links">\
 								<a href="https://twitter.com/marj_cuerdo" target="_blank"><img src="images/twitter.png"></a>\
