@@ -4,6 +4,7 @@
 }
 
 #container {
+	padding-top: 25px;
 	width: 100%;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	display: table-cell;
@@ -305,7 +306,7 @@ ul {
 	background-color: #f0f2f4;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 	.wrapper {
 		width: 100%;
 		left:0;

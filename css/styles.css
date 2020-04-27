@@ -2,6 +2,10 @@ body {
 	background-color: #F5F5F5;
 	text-align: center;
 }
+
+.bg {
+	background-color: black;
+}
 a {
 	color: #125ace;
 }
@@ -11,8 +15,8 @@ a:hover {
 }
 
 #links img {
-	width: 5%;
-	height: 10%;
+	width: 2%;
+	height: 5%;
 }
 
 .desc img {
@@ -25,14 +29,14 @@ a:hover {
 	height: 100%;
 }
 #container {
-	padding-top: 10px;
+	padding-top: 25px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align: center;
 	text-decoration: none;
 }
 
 #bio {
-	width: 65%;
+	width: 70%;
 	float: right;
 }
 
@@ -70,7 +74,7 @@ h3 {
 	font-size: 21px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1001px) {
 	.wrapper {
 		width: 100%;
 		left:0;
@@ -79,17 +83,13 @@ h3 {
 	}
 
 	#bio {
-		margin-top: 50px;
+		padding-top: 3%;
 		width: 100%;
 		float: none;
 		left:0;
 		right: 0;
 	}
 
-	.container {
-		width: 100%;
-		float: none;
-	}
 
 
 

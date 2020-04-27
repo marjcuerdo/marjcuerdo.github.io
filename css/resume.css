@@ -15,7 +15,7 @@ a:hover {
 	text-decoration: none;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	float: right;
-	width: 65%
+	width: 70%
 }
 
 #resume p {
@@ -71,7 +71,7 @@ ul li {
 }
 
 #container {
-	padding-top: 10px;
+	padding-top: 25px;
 	width: 100%;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	display: table-cell;
@@ -98,7 +98,7 @@ h3 {
 	margin-right: 10px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 	.wrapper {
 		width: 100%;
 		left:0;

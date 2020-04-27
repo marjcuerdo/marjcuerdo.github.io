@@ -28,16 +28,21 @@ h1 {
 	float: right;
 }
 
+#myLinks {
+	width: 100%;
+	margin-top: -2px;
+	background-color: #e2e6e9;
+}
 .topnav {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 20px;
+	width: 100%;
 }
 
 .topnav ul {
 	list-style: none;
 	margin: 0px;
 	padding: 0px;
-	text-align: center;
 }
 .topnav li {
 	display: inline;
@@ -46,17 +51,17 @@ h1 {
 .topnav li a {
 	display: inline-block;
 	text-decoration: none;
-	padding-left: 25px;
-	padding-right: 25px;
+	padding: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	margin-top: 0px;
+	margin-top: -2px;
 	top: 0;
 	color: #125ace;
 }
 
 .topnav a:hover {
 	color: orange;
+	background-color: #125ace;
 }
 
 .invisible {
@@ -70,34 +75,44 @@ h1 {
 	background-color: rgba(72, 61, 139, 1);
 }
 
+.col-lg-6 a {
+	font-weight: bold;
+}
+
 #about {
+	width: 23%;
 	text-align: center;
 	display: table-cell;
 	vertical-align: top;
 	position: relative;
-	font-size: 11px;
+	font-size: 12px;
 	float: left;
-	width: 25%;
 	height: 100%;
-	margin: 20px;
+	margin: 27px;
 	text-align: center;
 	text-decoration: none;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #links img {
-	width: 40px;
-	height: 40px;
-	margin: 5px;
+	width: 15%;
+	height: 15%;
+	margin: 2px;
 }
 
 body {
 	margin: auto;
-	width: 65%;
+	width: 77%;
 	text-align: center;
 	text-decoration: none;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+#twitter-widget-0 { 
+      width: 100% !important; 
+      margin: auto;
+}
+
 /*
 @media screen and (min-width: 601px) {
 	.topnav #myLinks {
@@ -105,11 +120,57 @@ body {
 	}
 }*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1001px) {
+	.container {
+		margin: 0 auto;
+		width: 100%;
+		height: 100%;
+	}
+
+	.twit {
+		margin: 0 auto;
+		width: 100%;
+		height: 100%;
+	}
+
+	#about {
+		float: none;
+		left: 0;
+		right: 0;
+		font-size: 18px;
+		margin: 0px;
+}
+
+	.topbar {
+		width: 100%;
+    	border-bottom: 2px;
+    	border-bottom-style: solid;
+    	border-bottom-color: #125ace;
+		display: inline-block;
+		text-align: center;
+		margin: 0px;
+	}
+
 	h1 {
 		font-size: 18px;
 		text-align: left;
 		float: left;
+		padding-top: 13px;
+
+	}
+
+	.subtitle {
+		margin-top: 0px;
+		font-size: 12px;
+		float: none;
+	}
+
+	.topnav a#icon{
+		float:right;
+		right: 0;
+		display: inline-block;
+		padding: 25px;
+		color: white;
 	}
 	.topnav #myLinks {
 		display: none;
@@ -128,19 +189,13 @@ body {
 
 	}
 
-	.topnav a#icon{
-		float:right;
-		right: 0;
-		display: block;
-		padding: 15px;
-		color: white;
-	}
+	#twitter-widget-0 { 
+      width: 100% !important; 
+}
 
-	.topbar {
-		width: 100%;
-		display: inline-block;
-		text-align: center;
-	}
+
+
+
 
 	.topnav li a {
 		padding: 10px;
@@ -151,19 +206,9 @@ body {
 		color: white;
 	}
 
-
-	#about {
-		font-size: 18px;
-		width: 100%;
-		position: relative;
-		margin-left: 0;
-		left: 0;
-		right: 0;
-	}
-
 	#links img {
-	width: 50px;
-	height: 50px;
+	width: 35px;
+	height: 35px;
 	}
 
 	#pic {
@@ -171,11 +216,7 @@ body {
 		height: 35%;
 	}
 
-	.subtitle {
-		font-size: 9px;
-		padding-right: 0px;
-		padding-left: 3px;
-	}
+
 
 
 }
