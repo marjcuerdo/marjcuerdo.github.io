@@ -4,7 +4,7 @@
 }
 
 #container {
-	padding-top: 25px;
+	padding-top: 0px;
 	width: 100%;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	display: table-cell;
@@ -307,6 +307,10 @@ ul {
 }
 
 @media screen and (max-width: 1000px) {
+
+	#container {
+	padding-top: 25px;
+}
 	.wrapper {
 		width: 100%;
 		left:0;

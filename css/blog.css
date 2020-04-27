@@ -49,7 +49,7 @@ a:hover {
 }
 
 #container {
-	padding-top: 25px;
+	padding-top: 20px;
 	width: 100%;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	display: table-cell;
@@ -63,6 +63,10 @@ a:hover {
 		left:0;
 		right: 0;
 		position: absolute;
+	}
+
+	#container {
+		padding-top: 25px;
 	}
 
 	#blog {
