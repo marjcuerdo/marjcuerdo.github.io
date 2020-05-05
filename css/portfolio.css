@@ -34,6 +34,9 @@ body {
 	background-color: white;
 }
 
+#int {
+	width: 100%;
+}
 #int p {
 	font-size: 13px;
 	float: left;
@@ -83,12 +86,12 @@ body {
 }
 
 .int_content li {
-	text-align: left;
+	text-align: center;
 	list-style: none;
 	float: left;
-	padding: 20px;
-	margin-bottom: 15px;
 }
+
+
 
 .int_content h5 {
 	font-size: 13px;
@@ -145,7 +148,6 @@ body {
 	list-style: none;
 	float: left;
 	padding: 20px;
-	margin-bottom: 15px;
 }
 
 .tech_content p {
@@ -296,6 +298,8 @@ ul {
 
 .cont_1 {
 	background-color: #e2e6e9;
+	width: 100%;
+	text-align: left;
 }
 
 .cont_2 {
@@ -326,6 +330,7 @@ ul {
 
 	.int p {
 		float: none;
+		text-align: center;
 	}
 
 	.int_content {
