@@ -19,6 +19,7 @@ a:hover {
 }
 
 #resume p {
+
 	text-align: left;
 }
 
@@ -62,16 +63,17 @@ ul li {
 .cont_1 {
 	background-color: #e2e6e9;
 	text-align: left;
-	padding: 20px;
+	padding: 40px;
 }
 .cont_2 {
 	background-color: #f0f2f4;
 	text-align: left;
-	padding: 20px;
+	padding: 40px;
 }
 
 #container {
 	padding-top: 20px;
+
 	width: 100%;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	display: table-cell;
