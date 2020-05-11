@@ -15,26 +15,24 @@ document.write('\<link rel="stylesheet" href="css/nav.css"><link rel="stylesheet
 			</ul>\
     </div>');
 
+window.addEventListener("resize", function(event) {
+    //console.log(document.body.clientWidth + ' wide by ' + document.body.clientHeight+' high');
+    var x = document.getElementById("myLinks");
+    if ((document.documentElement.clientWidth > 1002) && (x.classList.contains("hid"))) {
+      x.style.display = "inline-block";
+    } else if ((document.documentElement.clientWidth < 1002) && (x.classList.contains("hid"))) {
+      x.style.display = "none";
+    } 
+})
+
 function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "inline-block") {
-    x.style.display = "none";
-    x.classList.add("hid");
+  var y = document.getElementById("myLinks");
+  if (y.style.display === "inline-block") {
+    y.style.display = "none";
+    y.classList.add("hid");
   } else {
-    x.style.display = "inline-block";
+    y.style.display = "inline-block";
+    y.classList.remove("hid");
   }
 
 }
-
-$(function () {
-  var x = document.getElementById("myLinks");
-  $(window).bind("resize", function() {
-    console.log($(this).width())
-    if ( ($(this).width() > 300) && (x.classList.contains('hid')) ){
-      x.style.display = "inline-block";
-      x.class("background-color","green");
-    } else {
-      x.class("background-color","red");
-    }
-  }).trigger('resize');
-})
