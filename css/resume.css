@@ -37,13 +37,19 @@ h2 {
 }
 
 ul {
+	margin-left: 0px;
 
 }
 ul li {
 	list-style: none;
 }
+
+ul.with_style {
+	padding: 0px;
+}
 .with_style li {
 	list-style: disc;
+
 }
 
 .school a{
@@ -66,7 +72,7 @@ ul li {
 	text-align: left;
 	color: orange;
 	font-size: 15px;
-	padding: 10px;
+	padding: 15px;
 	background-color: rgba(72, 61, 139, 1);
 }
 
