@@ -73,6 +73,18 @@ a:hover {
 		width: 100%;
 		float: none;
 	}
-	
+}
 
+@media screen and (max-width: 700px) {
+	.cont_1 {
+		padding: 35px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.cont_2 {
+		padding: 35px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
 }

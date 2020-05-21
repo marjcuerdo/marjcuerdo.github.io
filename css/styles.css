@@ -81,6 +81,10 @@ a:hover {
 	font-weight: bold;
 }
 
+.job_title {
+		color: 	#4B0082;
+}
+
 h3 {
 	text-align: center;
 	color: black;
@@ -109,7 +113,19 @@ h3 {
 		padding-top: 70px;
 		padding-bottom: 20px;
 	}
+}
 
+@media screen and (max-width: 700px) {
 
+	.desc {
+		padding: 35px;
+		padding-top: 80px;
+		padding-bottom: 20px;
+	}
 
+	.news {
+		padding: 35px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
 }

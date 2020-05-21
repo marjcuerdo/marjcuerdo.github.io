@@ -83,6 +83,14 @@ a:hover {
 }
 
 @media screen and (max-width: 1000px) {
+
+	.int_content {
+		margin-top: 55px;
+	}
+
+	.tech_content {
+		margin-top: 55px;
+	}
 	.wrapper {
 		width: 100%;
 		left:0;
@@ -107,7 +115,19 @@ a:hover {
 
 	img {
 		float: none;
-		height: 90%;
-		width: 90%;
+		height: 100%;
+		width: 100%;
+	}
+
+	.cont_1 {
+	padding: 35px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+	.cont_2 {
+		padding: 35px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 }
