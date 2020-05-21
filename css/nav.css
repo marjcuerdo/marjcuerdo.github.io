@@ -1,18 +1,41 @@
+a .home_link {
+	text-decoration: none;
+	color: none;
+}
+
 h1 {
-	font-size: 30px;
-	text-align: left;
+	font-size: 36px;
+	text-align: center;
 	background-color: #483D8B;
 	color: white;
 	text-decoration: none;
-	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
 	padding: 10px;
 	padding-left: 50px;
 	margin: 0px;
 }
+
+.topbar a {
+	text-decoration: none;
+	color: none;
+}
+
+body {
+	margin: auto;
+	width: 70%;
+	text-align: center;
+	text-decoration: none;
+}
+
 .subtitle {
-	font-size: 15px;
-	padding-right: 30px;
-	float: right;
+	font-size: 12px;
+	font-weight: 100;
+	color: orange;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
 }
 .topnav #myLinks {
 		display: inline-block;
@@ -26,18 +49,27 @@ h1 {
 #myLinks {
 	width: 100%;
 	margin-top: -2px;
-	background-color: #e2e6e9;
+	background-color: #483D8B;
+
 }
 .topnav {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 20px;
+	font-weight: normal;
+	font-size: 18px;
 	width: 100%;
+	font-family: 'Lato', sans-serif;
 }
 
 .topnav ul {
 	list-style: none;
 	margin: 0px;
 	padding: 0px;
+	border-style: solid;
+	border-color: #125ace;
+	border-top-width: 2px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+
 }
 .topnav li {
 	display: inline;
@@ -51,7 +83,7 @@ h1 {
 	padding-bottom: 10px;
 	margin-top: -2px;
 	top: 0;
-	color: #125ace;
+	color: white;
 }
 
 .topnav a:hover {
@@ -66,8 +98,8 @@ h1 {
 .topnav a.highlight {
 	color: orange;
 	text-decoration: underline;
-	font-weight: bold;
-	background-color: rgba(72, 61, 139, 1);
+	font-weight: bolder;
+	background-color: #125ace;
 }
 
 .col-lg-6 a {
@@ -75,19 +107,16 @@ h1 {
 }
 
 #about {
-	width: 23%;
-	background-color: #F5F5F5;
+	width: 30%;
 	text-align: center;
 	display: table-cell;
 	vertical-align: top;
 	position: relative;
-	font-size: 12px;
+	font-size: 13px;
 	float: left;
 	height: 100%;
-	padding: 27px;
-	text-align: center;
 	text-decoration: none;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #links img {
@@ -96,17 +125,12 @@ h1 {
 	margin: 2px;
 }
 
-body {
-	margin: auto;
-	width: 77%;
-	text-align: center;
-	text-decoration: none;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+
 
 #twitter-widget-0 { 
       width: 100% !important; 
       margin: auto;
+      margin-left: 0px;
 }
 
 /*
@@ -140,9 +164,6 @@ body {
 
 	.topbar {
 		width: 100%;
-    	border-bottom: 2px;
-    	border-bottom-style: solid;
-    	border-bottom-color: #125ace;
 		display: inline-block;
 		text-align: center;
 
@@ -164,12 +185,14 @@ body {
 	.topnav a#icon{
 		float:right;
 		display: inline-block;
+		height: 100%;
 		padding: 15px;
 		color: white;
 	}
+
 	.topnav #myLinks {
 		display: none;
-		background-color: #9370DB;
+		background-color: #483D8B;
 		width: 100%;
 	}
 
@@ -198,8 +221,8 @@ body {
 	}
 
 	#links img {
-	width: 35px;
-	height: 35px;
+		width: 35px;
+		height: 35px;
 	}
 
 	#pic {

@@ -1,6 +1,10 @@
 body {
-	text-align: center;
+	margin: auto;
 	background-color: #F5F5F5;
+	width: 80%;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper {
@@ -10,6 +14,7 @@ body {
 
 a {
 	color: #125ace;
+
 }
 
 a:hover {
@@ -28,45 +33,59 @@ a:hover {
 
 #bio {
 	width: 70%;
-	margin-top: 38px;
 	float: right;
 }
 
 .intro {
 	text-align: left;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .intro_2 {
 	text-align: left;
+	font-size: 17px;
 }
 
 .desc {
 	height: 100%;
-	font-size: 16px;
 	background-color: #e2e6e9;
-	padding: 40px;
+	font-size: 20px;
+	padding: 75px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.desc a {
+	text-decoration: none;
+	font-weight: bold;
 }
 
 .news {
 	text-align: left;
-	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
 	font-size: 14px; 
-	font-style: normal; 
-	font-variant: normal; 
-	font-weight: 400; 
+	font-family: 'Lato', sans-serif;
 	line-height: 20px; 
 	color: 	#4B0082;
-	background-color: #f0f2f4;
-	padding: 40px;
+	background-color: #EEF0F3;
+	padding: 75px;
+	padding-top: 20px;
+}
 
+.news ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.month {
+	font-weight: bold;
 }
 
 h3 {
 	text-align: center;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: black;
-	font-size: 21px;
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 @media screen and (max-width: 1001px) {
@@ -86,8 +105,9 @@ h3 {
 	}
 
 	.desc {
-		margin-top: 70px;
-		padding: 40px;
+		padding: 75px;
+		padding-top: 70px;
+		padding-bottom: 20px;
 	}
 
 

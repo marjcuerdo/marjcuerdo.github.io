@@ -12,34 +12,37 @@ a:hover {
 
 #date {
 	text-decoration: underline;
-	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
-	font-size: 14px; 
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 17px; 
 	color: 	#4B0082;
 }
 
 #blog {
 	width: 70%;
 	float: right;
-	padding-top: 16px;
 	text-align: left;
 	text-decoration: none;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 .cont_1 {
 	background-color: #e2e6e9;
 	text-align: left;
-	padding: 40px;
+	padding: 75px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 }
 
 .cont_2 {
 	background-color: #f0f2f4;
 	text-align: left;
-	padding: 40px;
+	padding: 75px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 }
 
 #blog_entry {
-	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
 	font-size: 14px; 
 	font-style: normal; 
 	font-variant: normal; 
@@ -65,12 +68,8 @@ a:hover {
 		position: absolute;
 	}
 
-	#container {
-		padding-top: 5px;
-	}
-
 	#blog {
-		margin-top: 50px;
+		margin-top: 55px;
 		width: 100%;
 		float: none;
 	}

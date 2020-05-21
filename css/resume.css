@@ -1,5 +1,6 @@
 body {
 	background-color: #F5F5F5;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -11,9 +12,8 @@ a:hover {
 }
 
 #resume {
-	padding-top: 5px;
 	text-decoration: none;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	float: right;
 	width: 70%
 }
@@ -23,12 +23,21 @@ a:hover {
 	text-align: left;
 }
 
-.skills {
+h2 {
 	text-align: center;
+	width: 100%;
+	background-color: #e2e6e9;
+	color: #483D8B;
+	padding: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 ul {
-	padding: 20px;
+
 }
 ul li {
 	list-style: none;
@@ -47,6 +56,12 @@ ul li {
 	color: orange;
 }
 
+.click_link {
+	width: 100%;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
 .click_link a {
 	text-align: left;
 	color: orange;
@@ -63,22 +78,36 @@ ul li {
 .cont_1 {
 	background-color: #e2e6e9;
 	text-align: left;
-	padding: 40px;
+	overflow: auto;
+	padding: 75px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
 }
 .cont_2 {
 	background-color: #f0f2f4;
 	text-align: left;
-	padding: 40px;
+	overflow: auto;
+	margin: : 100px;
+	padding: 75px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
 }
 
-#container {
-	padding-top: 20px;
-
-	width: 100%;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	display: table-cell;
-	text-align: center;
-	text-decoration: none;
+.cont_3 {
+	background-color: #f0f2f4;
+	text-align: left;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 20px;
+}
+.cont_4 {
+	background-color: #e2e6e9;
+	text-align: left;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 20px;
 }
 
 h3 {
@@ -101,10 +130,6 @@ h3 {
 }
 
 @media screen and (max-width: 1000px) {
-
-	#container {
-		padding-top: 25px;
-	}
 	.wrapper {
 		width: 100%;
 		left:0;

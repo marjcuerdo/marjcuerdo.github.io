@@ -4,7 +4,6 @@ document.write('<section id="about" name="about">\
 					<div class="row">\
 							<div class="col-lg-6">\
 								<b><p><img id="pic" src="images/cuerdo.jpg" alt="Picture of Marjorie" height="75%" width="75%" ></p>\
-								<p>M.S. Human-Computer Interaction</p></b>\
 							</div>\
 							<div class="col-lg-6">\
 								<p><a href="mailto:mcuerdo@depaul.edu">mcuerdo@depaul.edu</a><br></p>\
