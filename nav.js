@@ -11,7 +11,6 @@ document.write('\<link rel="stylesheet" href="css/nav.css"><link rel="stylesheet
         <li><a href="research-ux.html">Research</a></li>\
         <li><a href="design.html">Design + Development</a></li>\
 				<li><a href="resume.html">Résumé</a><li>\
-        <li><a href="blog.html">Blog</a><li>\
 			</ul>\
     </div>');
 
