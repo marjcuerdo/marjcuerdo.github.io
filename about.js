@@ -6,7 +6,7 @@ document.write('<section id="about" name="about">\
 								<b><p><img id="pic" src="images/cuerdo.jpg" alt="Picture of Marjorie" height="75%" width="75%" ></p>\
 							</div>\
 							<div class="col-lg-6">\
-								<p><a href="mailto:mcuerdo@depaul.edu">mcuerdo@depaul.edu</a><br></p>\
+								<p><a href="mailto:mcuerdo@ucsc.edu">mcuerdo@ucsc.edu</a><br></p>\
 							</div>\
 							<div id="links">\
 								<a href="https://scholar.google.com/citations?user=nvgtgq4AAAAJ&hl=en" target="_blank"><img src="images/scholar.jpeg"></a>\
