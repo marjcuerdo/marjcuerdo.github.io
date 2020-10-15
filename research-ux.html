@@ -22,14 +22,17 @@
 		</header>
 			<script>			
 			for (var i=0; i < document.links.length; i++) {
-				if (document.links[i].href == document.URL) {
+				if ((document.links[i].href == document.URL) && (window.location.href.indexOf("research") > -1 ) ){
 					document.links[i].className = 'highlight';
-				} else if (document.URL == 'https://marjcuerdo.github.io') {
+				} /*else if (window.location.href.indexOf("research") > -1 ) {
+					document.links[i].className = 'highlight';
+				}*/ else if (document.URL == 'https://marjcuerdo.github.io') {
 					document.links[i].className = 'highlight';
 				} else if (document.links[i].href == 'https://twitter.com/marj_cuerdo?ref_src=twsrc%5Etfw') {
 
 				} else {
 					document.links[i].className = '';
+
 				}
 			}
 			</script>

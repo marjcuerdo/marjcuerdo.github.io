@@ -31,7 +31,7 @@ body {
 .subtitle {
 	font-size: 12px;
 	font-weight: 100;
-	color: orange;
+	color: white;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	font-family: 'Lato', sans-serif;
@@ -40,6 +40,7 @@ body {
 .topnav #myLinks {
 		display: inline-block;
 		text-align: center;
+		background-color: #f5f5f5;
 	}
 
 .topnav a#icon {
@@ -49,13 +50,10 @@ body {
 #myLinks {
 	width: 100%;
 	margin-top: -2px;
-	background-color: #483D8B;
-
 }
 .topnav {
-
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 20px;
 	width: 100%;
 	font-family: 'Lato', sans-serif;
 }
@@ -64,12 +62,12 @@ body {
 	list-style: none;
 	margin: 0px;
 	padding: 0px;
-	border-style: solid;
+	/*border-style: solid;
 	border-color: #125ace;
 	border-top-width: 2px;
 	border-left-width: 0px;
 	border-right-width: 0px;
-	border-bottom-width: 0px;
+	border-bottom-width: 0px;*/
 
 }
 .topnav li {
@@ -84,12 +82,14 @@ body {
 	padding-bottom: 10px;
 	margin-top: -2px;
 	top: 0;
-	color: white;
+	/*color: white;*/
+	color: rgb(100,100,100);
+
 }
 
 .topnav a:hover {
-	color: orange;
-	background-color: #125ace;
+	color: #a891c1;
+	/*background-color: #125ace;*/
 }
 
 .invisible {
@@ -97,10 +97,10 @@ body {
 }
 
 .topnav a.highlight {
-	color: orange;
+	/*color: #483D8B;*/
+	color: #125ace;;
 	text-decoration: underline;
 	font-weight: bolder;
-	background-color: #125ace;
 }
 
 .col-lg-6 a {
@@ -110,9 +110,10 @@ body {
 #about {
 	width: 30%;
 	text-align: center;
-	display: table-cell;
+	margin-top: 150px;
+	/*display: table-cell;
 	vertical-align: top;
-	position: relative;
+	position: relative;*/
 	font-size: 13px;
 	float: left;
 	height: 100%;
@@ -156,9 +157,9 @@ body {
 	}
 
 	#about {
+		text-align: center;
+		width: 100%;
 		float: none;
-		left: 0;
-		right: 0;
 		font-size: 18px;
 		margin: 0px;
 }
@@ -197,8 +198,24 @@ body {
 
 	.topnav #myLinks {
 		display: none;
-		background-color: #483D8B;
+		background-color: #e2e6e9;
+
 		width: 100%;
+	}
+
+	.topnav #myLinks a {
+		color: rgb(40,40,40);
+	}
+
+	.topnav #myLinks a:hover {
+		color: #a891c1;
+	/*background-color: #125ace;*/
+	}
+
+	.topnav #myLinks a.highlight {
+		color: #125ace;;
+		text-decoration: underline;
+		font-weight: bolder;
 	}
 
 	.topnav {

@@ -1,6 +1,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
+	background-color: #f5f5f5;
 }
 
 .wrapper {
@@ -19,23 +20,32 @@ body {
 	top: 0;
 	z-index: 999;
 	width: 70%;
-	background-color: green;
 }
 
 .navi {
-
+	background-color: #f5f5f5;
 }
 
-.active {
-	color: orange;
+.navi a {
+	color: rgb(100,100,100);
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.navi .active {
+	color: #483D8B;
+	font-weight: bold;
 	text-decoration: underline;
-	background-color: #125ace;
 	padding: 5px;
+}
+
+.navi a:hover {
+	color: #a891c1;
 }
 
 h2 {
 	text-align: center;
-	background-color: #e2e6e9;
+	/*background-color: #e2e6e9;*/
 	color: #483D8B;
 	padding: 10px;
 	margin-bottom: 0px;
@@ -51,20 +61,32 @@ ul {
 }
 
 .cont_1 {
-	background-color: #e2e6e9;
+	/*background-color: #e2e6e9;*/
 	text-align: left;
 	height: 100%;
 	overflow: auto;
+	border-style: solid;
+	border-color: #483D8B;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
 	padding: 75px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
 .cont_2 {
-	background-color: #f0f2f4;
+	/*background-color: #f0f2f4;*/
 	text-align: left;
 	height: 100%;
 	overflow: auto;
+		border-style: solid;
+	border-color: #483D8B;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
 	padding: 75px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -103,7 +125,7 @@ ul {
 
 #portfolio-des {
 	padding-top: 0px;
-	margin-top: 0px;
+	margin-top: 125px;
 }
 
 img {
@@ -120,15 +142,16 @@ img {
 
 .click_link a {
 	text-align: center;
-	color: orange;
+	color: white;
 	font-size: 15px;
 	padding: 15px;
-	background-color: rgba(72, 61, 139, 1);
+	background-color: #052c6b;
+	/*background-color: rgba(72, 61, 139, 1);*/
 }
 
 .click_link a:hover {
-	color: rgba(72, 61, 139, 1);
-	background-color: orange;
+	color: #052c6b;
+	background-color: #a891c1;
 }
 
 a {
@@ -150,8 +173,13 @@ a:hover {
 
 	#portfolio {
 	padding-top: 0px;
-	margin-top: 100px;
+	margin-top: 50px;
 	}
+
+	#portfolio-des {
+	padding-top: 0px;
+	margin-top: 0px;
+}
 
 	.int_content {
 		margin-top: 55px;

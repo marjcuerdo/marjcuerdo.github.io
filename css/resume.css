@@ -8,25 +8,31 @@ a {
 }
 
 a:hover {
-		color: orange;
+		color: #a891c1;
+}
+
+.cont {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 70%;
 }
 
 #resume {
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
-	float: right;
 	width: 70%
+	padding-top: 0px;
+	margin-top: 150px;
 }
 
 #resume p {
-
 	text-align: left;
 }
 
 h2 {
-	text-align: center;
+	text-align: left;
 	width: 100%;
-	background-color: #e2e6e9;
 	color: #483D8B;
 	padding: 10px;
 	padding-left: 0px;
@@ -46,19 +52,27 @@ ul li {
 ul.with_style {
 	padding: 0px;
 }
+
 .with_style li {
 	list-style: disc;
+	padding: 2px;
 
 }
 
-.school a{
+.with_style li a {
 	text-decoration: none;
+	font-weight: bold;
+}
+
+.with_style .school a{
+	text-decoration: none;
+	font-weight: normal;
 	color: black;
 }
 
 .school a:hover{
 	text-decoration: none;
-	color: orange;
+	color: #a891c1;
 }
 
 .click_link {
@@ -69,15 +83,15 @@ ul.with_style {
 
 .click_link a {
 	text-align: left;
-	color: orange;
+	color: white;
 	font-size: 15px;
 	padding: 15px;
-	background-color: rgba(72, 61, 139, 1);
+	background-color: #052c6b;
 }
 
 .click_link a:hover {
-	color: rgba(72, 61, 139, 1);
-	background-color: orange;
+	color: #052c6b;
+	background-color: #a891c1;
 }
 
 .cont_1 {
@@ -88,27 +102,35 @@ ul.with_style {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 20px;
+	border-style: solid;
+	border-color: #483D8B;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 2px;
 }
 .cont_2 {
-	background-color: #f0f2f4;
 	text-align: left;
 	overflow: auto;
 	padding: 50px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	border-style: solid;
+	border-color: #483D8B;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
 }
 
 .cont_3 {
-	background-color: #f0f2f4;
 	text-align: left;
-	padding-top: 1px;
 	padding-bottom: 1px;
 	padding-left: 20px;
+
 }
 .cont_4 {
-	background-color: #e2e6e9;
 	text-align: left;
-	padding-top: 1px;
 	padding-bottom: 1px;
 	padding-left: 20px;
 }
@@ -145,6 +167,11 @@ h3 {
 		width: 100%;
 		float: none;
 	}	
+	.cont_3 {
+		padding: 35px;
+		padding-top: 30px;
+		padding-bottom: 0px;
+	}
 }
 
 @media screen and (max-width: 700px) {
@@ -162,8 +189,8 @@ h3 {
 
 	.cont_3 {
 		padding: 35px;
-		padding-top: 20px;
-		padding-bottom: 20px;
+		padding-top: 30px;
+		padding-bottom: 0px;
 	}
 
 	.cont_4 {
