@@ -136,6 +136,15 @@ img {
 	float: left;
 }
 
+.img2 {
+	float: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 75%;
+	width: 75%;
+}
+
 .click_link {
 	
 }
@@ -218,6 +227,15 @@ img {
 }
 
 @media screen and (max-width: 700px) {
+
+	.img2 {
+	float: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	width: 100%;
+}
 	.cont {
 		width: 100%;
 	}
