@@ -167,8 +167,21 @@ h3 {
 		width: 100%;
 		float: none;
 	}	
+
+	.cont_1 {
+		padding: 80px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.cont_2 {
+		padding: 80px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
 	.cont_3 {
-		padding: 35px;
+		padding: 80px;
 		padding-top: 30px;
 		padding-bottom: 0px;
 	}
