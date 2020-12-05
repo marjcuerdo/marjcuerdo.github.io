@@ -8,10 +8,6 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.twit {
-	padding: 50px;
-	padding-top: 25px;
-}
 .cont {
 	position: fixed;
 	top: 0;
@@ -22,12 +18,14 @@ body {
 .wrapper {
 	width: 100%;
 	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
 }
 
 a {
 	color: #125ace;
-
-
 }
 
 a:hover {
@@ -44,10 +42,26 @@ a:hover {
 	height: 50%;
 }
 
+#about {
+	order: 1;
+	width: 20%;
+	margin-top: 125px;
+}
 #bio {
+	order: 2;
 	width: 70%;
-	float: right;
+	height: 100%;
+	/*float: right;*/
+	align-self: center;
 	margin-top: 115px;
+}
+
+#twitter {
+	order: 3;
+	width: 100%;
+	text-align: center;
+	padding: 150px;
+	padding-top: 0px;
 }
 
 .intro {
@@ -65,9 +79,11 @@ a:hover {
 	height: 100%;
 	/*background-color: #e2e6e9;*/
 	font-size: 18px;
-	padding: 70px;
+	padding: 50px;
 	padding-top: 20px;
 	padding-bottom: 0px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
 
 }
 
@@ -92,8 +108,8 @@ a:hover {
 	line-height: 20px; 
 	/*color: 	#4B0082;
 	background-color: #EEF0F3;*/
-	padding: 20px;
-	padding-top: 20px;
+	padding: 5px;
+	padding-top: 10px;
 }
 
 .news ul {
@@ -108,7 +124,8 @@ a:hover {
 
 .job_title {
 	color: 	#4B0082;
-	font-weight: normal;
+	font-weight: 500;
+	font-size: 19px;
 }
 
 h3 {
@@ -120,14 +137,25 @@ h3 {
 
 @media screen and (max-width: 1001px) {
 
+	.twit {
+		padding: 0px;
+		padding-top: 25px;
+		max-width: 100%;
+	}
+
+	#twitter {
+		order: 3;
+	}
+
 	.wrapper {
 		width: 100%;
 		left:0;
 		right: 0;
-		position: absolute;
+		
 	}
 
 	#bio {
+		order: 1;
 		width: 100%;
 		float: none;
 		left:0;
@@ -136,22 +164,58 @@ h3 {
 	}
 
 	.desc {
-		padding: 80px;
-		padding-top: 80px;
-		padding-bottom: 20px;
-	}
-}
-
-@media screen and (max-width: 700px) {
-
-	.desc {
-		padding: 35px;
+		padding: 0px;
 		padding-top: 80px;
 		padding-bottom: 20px;
 	}
 
 	.news {
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+
+	.wrapper {
+		display: flex;
+		flex-flow: column;
+	}
+	#bio {
+		order: 1;
+		padding: 0px;
+	}
+
+	#about img {
+		width: 60%;
+	}
+	#about {
+		order: 2;
+		padding: 0px;
+		text-align: center;
+		width: 100%;
+		float: none;
+		font-size: 18px;
+		margin: 0px;
+}
+
+	#twitter {
+		order: 3;
+		padding: 0px;
+		width: 100%;
+		max-width: 100%;
+	}
+
+
+
+	/*.desc {
+		order: 1;
 		padding: 35px;
+		padding-top: 80px;
+		padding-bottom: 20px;
+	}*/
+
+	.news {
+		padding: 0px;
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
