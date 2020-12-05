@@ -8,6 +8,10 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.twit {
+	padding: 50px;
+	padding-top: 25px;
+}
 .cont {
 	position: fixed;
 	top: 0;
@@ -77,14 +81,18 @@ a:hover {
 	font-weight: 500;
 }
 
+.news h3 {
+	font-size: 18px;
+}
 .news {
 	text-align: left;
-	font-size: 16px; 
+	font-size: 14px; 
+	font-weight: normal;
 	font-family: 'Lato', sans-serif;
 	line-height: 20px; 
 	/*color: 	#4B0082;
 	background-color: #EEF0F3;*/
-	padding: 70px;
+	padding: 20px;
 	padding-top: 20px;
 }
 
