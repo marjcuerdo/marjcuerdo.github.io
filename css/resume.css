@@ -1,6 +1,7 @@
 body {
 	background-color: #F5F5F5;
 	font-family: 'Open Sans', sans-serif;
+	color: rgb(47,79,79);
 }
 
 a {
@@ -16,6 +17,7 @@ a:hover {
 	top: 0;
 	z-index: 999;
 	width: 70%;
+	color: rgb(47,79,79);
 }
 
 #resume {
@@ -67,7 +69,7 @@ ul.with_style {
 .with_style .school a{
 	text-decoration: none;
 	font-weight: normal;
-	color: black;
+	color: rgb(47,79,79);;
 }
 
 .school a:hover{
