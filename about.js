@@ -16,12 +16,4 @@ document.write('<section id="about" name="about">\
 					</div>\
 				</div>\
 			</div>\
-				<div class="news">\
-					<h3>Recent News</h3>\
-					<ul>\
-						<li><u class="month">May 2021.</u> IEEE CoG 2021 full paper submissions were accepted: one first-authored on respawning and PX; another co-authored on collaboration in embodied/tangible play spaces.</li><br>\
-						<li><u class="month">March 2020.</u> I was accepted into the Ph.D. Computational Media program at UCSC.</li><br>\
-						<li><u class="month">February 2020.</u> My first CHI poster papers were accepted: a taxonomy for in-game death and adapting the SUS for children.</li><br>\
-					</ul>\
-				</div>\
 		</section>');
