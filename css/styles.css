@@ -26,6 +26,7 @@ body {
 
 a {
 	color: #125ace;
+	font-weight: 600;
 }
 
 a:hover {
@@ -101,7 +102,7 @@ a:hover {
 
 .desc a {
 	text-decoration: none;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .news a {
@@ -134,7 +135,13 @@ a:hover {
 	text-decoration: none;
 }
 
-.job_title {
+.style {
+	color: 	#4B0082;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.style_normal {
 	color: 	#4B0082;
 	font-weight: 500;
 	font-size: 18px;
