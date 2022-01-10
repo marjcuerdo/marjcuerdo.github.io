@@ -100,9 +100,12 @@ a:hover {
 
 }
 
-.desc a {
-	text-decoration: none;
+.bold {
 	font-weight: 600;
+}
+
+.normal {
+	font-weight: 300;
 }
 
 .news a {
