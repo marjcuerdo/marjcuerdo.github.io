@@ -8,7 +8,7 @@ document.write('\<link rel="stylesheet" href="css/nav.css"><link rel="stylesheet
 	    </div>\
 			<ul id="myLinks">\
 				<li><a href="index.html">Home</a></li>\
-        <li><a href="research-acad.html">Research</a></li>\
+        <li><a href="research-ux.html">Research</a></li>\
         <li><a href="design.html">Coding + Design</a></li>\
 				<li><a href="cv.html">Résumé</a><li>\
 			</ul>\
