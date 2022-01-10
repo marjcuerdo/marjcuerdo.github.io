@@ -51,6 +51,19 @@ h2 {
 	padding: 10px;
 	margin-bottom: 0px;
 	margin-top: 0px;
+
+}
+
+
+.project_type {
+	/*text-align: left;*/
+	color: #483D8B;
+	font-size:  23px;
+	padding: 10px;
+	padding-left:  0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	text-decoration: underline;
 }
 
 ul {
