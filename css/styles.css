@@ -71,10 +71,12 @@ a:hover {
 
 #twitter {
 	order: 3;
-	width: 70%;
-	text-align: center;
-	padding: 150px;
+	width: 40%;
+	margin: 0 auto;
 	padding-top: 0px;
+	vertical-align: top;
+	text-align: center;
+	align-self: center;
 }
 
 .intro {
@@ -167,7 +169,7 @@ h3 {
 
 	#twitter {
 		order: 3;
-		width: 90%;
+		width: 80%;
 	}
 
 	.wrapper {
@@ -238,7 +240,7 @@ h3 {
 	#twitter {
 		order: 3;
 		padding: 0px;
-		width: 100%;
+		width: 90%;
 		max-width: 100%;
 	}
 
