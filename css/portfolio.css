@@ -155,8 +155,9 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 75%;
-	width: 75%;
+	float:  left;
+	height: 50%;
+	width: 50%;
 }
 
 .click_link {
