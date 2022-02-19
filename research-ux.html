@@ -16,17 +16,20 @@
 			<div class="wrapper">
 			<div class="cont">
 			<script src="nav.js"></script>
-			<div class="navi"><h2><a class="active">UX Research</a> | <a href="research-acad.html">Academic Research</a></h2></div>
 		</div>
 		</div>
 		</header>
 			<script>			
 			for (var i=0; i < document.links.length; i++) {
-				if (window.location.href.indexOf("research") > -1 ) {
+				/*if (window.location.href.indexOf("research") > -1 ) {
 
 					if (document.links[i].href.indexOf("research") > -1) {
 						document.links[i].className = 'highlight';
-					}
+					}*/
+
+				if (document.links[i].href == document.URL) {
+					document.links[i].className = 'highlight';
+				
 				} /*else if (window.location.href.indexOf("research") > -1 ) {
 					document.links[i].className = 'highlight';
 				}*/ else if (document.URL == 'https://marjcuerdo.github.io') {
@@ -41,62 +44,10 @@
 			</script>
 		<div class="wrapper">
 			<section id="portfolio" name="portfolio">
-				<br><br><div class="description">This section includes my research projects, some of which I had a <b class="style_normal">hybrid designer/researcher role</b> in. Generative research projects were more exploratory, whereas evaluative research projects assessed existing products.<br><br>
+				<br><br><div class="description">This section includes my research projects, some of which I had a <b class="style_normal">hybrid designer/researcher role</b> in. Evaluative research projects assessed existing products, whereas Generative research projects were more exploratory. <br><br>
 				<i>w.i.p. means "work in progress"</i>. The full report links are the versions submitted for the related courses. I had a lot of fun learning UX with these projects! So I'm turning those reports into shorter summary slide presentations.</div>
 					<ul class="int_content">
-						<li id="uxr" class="cont_2">
-							<h2 class="project_type">Generative Research Projects</h2>
-							<h3>Games for Mental Health (DBT)<i> -- currently designing study</i></h3>
-							<div class="above">
-								<div class="left">
-									<img class="img2" src="images/dbt.jpg"><br>
-								</div>
-								<div class="right">
-								</div>
-							</div>
-							<div class="below">
-								<b>Research Questions: </b><br>
-									<ul class="list">
-										<li>What needs do patients in DBT-focused mental health recovery programs have?</li>
-										<li>How could interactive technologies assist in (or hinder) practicing DBT skills?</li>
-										<li>Could technology increase learning outcomes of DBT skills?</li>
-										<li>Could technology foster social connection during therapy?</li>
-									</ul>
-								<br>
-								<b>Methods: </b><br>
-								<ul>
-									<li>1. Interviews</li>
-								</ul>
-								<br>
-									The ongoing COVID-19 has brought discussions about mental health to the forefront, though it has always been a pressing issue in our society. Depression and anxiety are ravaging our population along with coronavirus itself. Fortunately, people can develop coping skills from cognitive behavioral therapy (CBT) and dialectical behavioral therapy (DBT). These skills are used to overcome thoughts, feelings, and behaviors that impede health. I'm designing a research study to discover ways that interactive technologies can help people practice the Interpersonal Effectiveness aspect of DBT skills in an engaging and enjoyable way through eliciting <u>perceived cognitive, emotional, and decision-making challenge</u>. I am currently in the <b>generative research phase</b> for this project.
-								<br>
-							</div>
-						</li>
-						<li class="cont_1">
-							
-							<h3>Music for Stories</h3>
-							<div class="above">
-								<div class="left">
-									<img src="images/ux_affinity.png">
-								</div>
-								<div class="right">
-									<p class="click_link"><a href="https://drive.google.com/file/d/1NJZI1AyfgilwpG5dFNl08Vb-x8sEhNwo/view?usp=sharing" target="_blank"><b>Report Slides</b></a></p><br>
-									<p class="click_link"><a href="https://drive.google.com/open?id=1QKYbLW3L26GZLcUmMkPaAxoii2oF2TXa" target="_blank"><b>Full Report</b></a></p><br>
-								</div>
-							</div>
-							<div class="below">
-							<b>Main Research Question:</b> What do digital content creators need to efficiently discover and edit music into their content, without requiring knowledge of music theory or composition?<br><br>
-							<b>Methods: </b><br>
-								<ul>
-									<li>1. Observations</li>
-									<li>2. Interviews</li>
-									<li>3. Surveys</li>
-								</ul>
-								<br>
-								I was part of an exploratory study about how content creators discover and add music and other auditory material to their work. The project resulted in recommendations towards designing an <b>intelligent digital media editing software</b>. This is the final report containing details about each stage of the process and our implications for design.<br><br>
-								I was part of a 4-person group where the workload for obtaining data was split equally. I did a significant part of the qualitative and quanitative analysis.
-							</div>
-						</li>
+						
 
 						<li id="uxr" class="cont_2">
 							<h2 class="project_type">Evaluation Research Projects</h2>
@@ -132,8 +83,8 @@
 									<img src="images/rt_supporter.png">
 								</div>
 								<div class="right">
-									<p class="click_link"><a href="https://drive.google.com/file/d/1v6xYVKam9X8goTOHtDd2bON-ee9eCpVC/view?usp=sharing" target="_blank"><b>Presentation</b></a></p><br>
-									<p class="click_link"><a href="https://drive.google.com/open?id=19levb1a_6mtE6_NHZthA5nHDfPOpI323" target="_blank"><b>Mid-fi Report</b></a></p><br>
+									<p class="click_link"><a href="https://drive.google.com/file/d/1v6xYVKam9X8goTOHtDd2bON-ee9eCpVC/view?usp=sharing" target="_blank"><b>Overall Process Slides</b></a></p><br>
+									<p class="click_link"><a href="https://drive.google.com/open?id=19levb1a_6mtE6_NHZthA5nHDfPOpI323" target="_blank"><b>Mid-Fi Usability Test Report</b></a></p><br>
 								</div>
 							</div>
 							<div class="below">
@@ -161,9 +112,10 @@
 									<img src="images/PlayerSync.png">
 								</div>
 								<div class="right">
+									<p class="click_link"><a href="https://drive.google.com/open?id=1yHsvUqsrJsTEPqevB4h_J99W9rfECfVL" target="_blank"><b>Design Process Slides</b></a></p><br>
 										<p class="click_link"><a href="https://xd.adobe.com/view/7d4a605c-a57a-451d-731f-4a55bda316a1-0b7b/?fullscreen" target="_blank"><b>Prototype</b></a></p><br>
 										<p class="click_link"><a href="https://drive.google.com/open?id=1NEYndJBxWO_qG-Nayc_DbmDD5cjYcoMx" target="_blank"><b>Walkthrough Video</b></a></p><br>
-										<p class="click_link"><a href="https://drive.google.com/open?id=1yHsvUqsrJsTEPqevB4h_J99W9rfECfVL" target="_blank"><b>Design Process</b></a></p><br>
+										
 									</div>
 								</div>
 								<div class="below">
@@ -245,7 +197,7 @@
 								</div>
 								<div class="right">
 										<p class="click_link"><a href="https://projects.invisionapp.com/share/Q2OW37GM5BG#/screens" target="_blank"><b>Prototype</b></a></p><br>
-										<p class="click_link"><a href="https://drive.google.com/open?id=1ckfV-dxJs2W5sNB1zphjLXCn2i5zRRF1" target="_blank"><b>Report (w.i.p.)</b></a></p><br>
+										<p class="click_link"><a href="https://drive.google.com/open?id=1ckfV-dxJs2W5sNB1zphjLXCn2i5zRRF1" target="_blank"><b>Full Report</b></a></p><br>
 									</div>
 								</div>
 									<div class="below">
@@ -280,6 +232,60 @@
 								</ul>
 								<br>
 								This was my first attempt at an <b>overall usability evaluation</b> for an existing system prior to transferring into an HCI-focused master's program. I examined the Xbox Live (messaging system) and developed design recommendations. While posted here mostly for nostalgia, findings are insightful so I'm working on the slides.
+							</div>
+						</li>
+
+						<li id="uxr" class="cont_2">
+							<h2 class="project_type">Generative Research Projects</h2>
+							<h3>Games for Mental Health (DBT)<i> -- currently designing study</i></h3>
+							<div class="above">
+								<div class="left">
+									<img class="img2" src="images/dbt.jpg"><br>
+								</div>
+								<div class="right">
+								</div>
+							</div>
+							<div class="below">
+								<b>Research Questions: </b><br>
+									<ul class="list">
+										<li>What needs do patients in DBT-focused mental health recovery programs have?</li>
+										<li>How could interactive technologies assist in (or hinder) practicing DBT skills?</li>
+										<li>Could technology increase learning outcomes of DBT skills?</li>
+										<li>Could technology foster social connection during therapy?</li>
+									</ul>
+								<br>
+								<b>Methods: </b><br>
+								<ul>
+									<li>1. Interviews</li>
+								</ul>
+								<br>
+									The ongoing COVID-19 has brought discussions about mental health to the forefront, though it has always been a pressing issue in our society. Depression and anxiety are ravaging our population along with coronavirus itself. Fortunately, people can develop coping skills from cognitive behavioral therapy (CBT) and dialectical behavioral therapy (DBT). These skills are used to overcome thoughts, feelings, and behaviors that impede health. I'm designing a research study to discover ways that interactive technologies can help people practice the Interpersonal Effectiveness aspect of DBT skills in an engaging and enjoyable way through eliciting <u>perceived cognitive, emotional, and decision-making challenge</u>. I am currently in the <b>generative research phase</b> for this project.
+								<br>
+							</div>
+						</li>
+						<li class="cont_1">
+							
+							<h3>Music for Stories</h3>
+							<div class="above">
+								<div class="left">
+									<img src="images/ux_affinity.png">
+								</div>
+								<div class="right">
+									<p class="click_link"><a href="https://drive.google.com/file/d/1NJZI1AyfgilwpG5dFNl08Vb-x8sEhNwo/view?usp=sharing" target="_blank"><b>Report Slides</b></a></p><br>
+									<p class="click_link"><a href="https://drive.google.com/open?id=1QKYbLW3L26GZLcUmMkPaAxoii2oF2TXa" target="_blank"><b>Full Report</b></a></p><br>
+								</div>
+							</div>
+							<div class="below">
+							<b>Main Research Question:</b> What do digital content creators need to efficiently discover and edit music into their content, without requiring knowledge of music theory or composition?<br><br>
+							<b>Methods: </b><br>
+								<ul>
+									<li>1. Observations</li>
+									<li>2. Interviews</li>
+									<li>3. Surveys</li>
+								</ul>
+								<br>
+								I was part of an exploratory study about how content creators discover and add music and other auditory material to their work. The project resulted in recommendations towards designing an <b>intelligent digital media editing software</b>. This is the final report containing details about each stage of the process and our implications for design.<br><br>
+								I was part of a 4-person group where the workload for obtaining data was split equally. I did a significant part of the qualitative and quanitative analysis.
 							</div>
 						</li>
 					</ul>			
