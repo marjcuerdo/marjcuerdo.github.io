@@ -16,17 +16,20 @@
 			<div class="wrapper">
 			<div class="cont">
 			<script src="nav.js"></script>
-			<div class="navi"><h2><a href="research-ux.html">UX Research</a> | <a class="active">Academic Research</a></h2></div>
 		</div>
 		</div>
 		</header>
 			<script>			
 			for (var i=0; i < document.links.length; i++) {
-				if (window.location.href.indexOf("research") > -1 ) {
+				/*if (window.location.href.indexOf("research") > -1 ) {
 
 					if (document.links[i].href.indexOf("research") > -1) {
 						document.links[i].className = 'highlight';
-					}
+					}*/
+
+				if (document.links[i].href == document.URL) {
+					document.links[i].className = 'highlight';
+				
 				} else if (document.URL == 'https://marjcuerdo.github.io') {
 					document.links[i].className = 'highlight';
 				} else if (document.links[i].href == 'https://twitter.com/marj_cuerdo?ref_src=twsrc%5Etfw') {
