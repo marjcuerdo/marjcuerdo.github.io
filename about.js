@@ -11,7 +11,8 @@ document.write('<section id="about" name="about">\
 							<div id="links">\
 								<a href="https://scholar.google.com/citations?user=nvgtgq4AAAAJ&hl=en" target="_blank"><img src="images/scholar.jpeg"></a>\
 								<a href="https://www.linkedin.com/in/marjorie-ann-cuerdo-12979277/" target="_blank"><img src="images/linkedin.png" ></a>\
-								<a href="https://twitter.com/marj_cuerdo" target="_blank"><img src="images/twitter.png"></a>\
+								<a href="https://twitter.com/marj_cuerdo" target="_blank"><img src="images/x.png"></a>\
+								<a href="https://www.researchgate.net/profile/Marjorie-Ann-Cuerdo" target="_blank"><img src="images/rg.png"></a>\
 							</div>\
 					</div>\
 				</div>\
