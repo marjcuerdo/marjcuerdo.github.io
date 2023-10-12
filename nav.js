@@ -1,14 +1,13 @@
 document.write('\<link rel="stylesheet" href="css/nav.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">\
 	<div class="topnav" id="myTopnav">\
 		<div class="topbar">\
-		<a class="home_link" href="index.html"><h1>Marj Cuerdo<p class="subtitle">Researcher & Project/Product Manager</p></h1></a>\
+		<a class="home_link" href="index.html"><h1>Marj Cuerdo<p class="subtitle">Researcher</p></h1></a>\
 				<a href="javascript:void(0);" id="icon" onclick="myFunction()">\
 	    			<i class="fa fa-bars"></i>\
 	    		</a>\
 	    </div>\
 			<ul id="myLinks">\
 				<li><a href="index.html">Home</a></li>\
-        <li><a href="research-ux.html">UX Research</a></li>\
         <li><a href="research-acad.html">PhD Research</a></li>\
         <li><a href="design.html">Games+</a></li>\
 				<li><a href="cv.html">Résumé</a><li>\
