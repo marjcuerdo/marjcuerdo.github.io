@@ -10,8 +10,9 @@ document.write('<section id="about" name="about">\
 							</div>\
 							<div id="links">\
 								<a href="https://scholar.google.com/citations?user=nvgtgq4AAAAJ&hl=en" target="_blank"><img src="images/scholar.jpeg"></a>\
-								<a href="https://www.linkedin.com/in/marj-cuerdo-12979277/" target="_blank"><img src="images/linkedin.png" ></a>\
 								<a href="https://www.researchgate.net/profile/Marjorie-Ann-Cuerdo" target="_blank"><img src="images/rg.png"></a>\
+								<a href="https://www.linkedin.com/in/marjorie-cuerdo-ph-d-12979277/" target="_blank"><img src="images/linkedin.png" ></a>\
+								<a href="https://x.com/marj_cuerdo" target="_blank"><img src="images/x.png"></a>\
 							</div>\
 					</div>\
 				</div>\
