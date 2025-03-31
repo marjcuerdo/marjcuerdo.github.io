@@ -3,7 +3,7 @@ document.write('<section id="about" name="about">\
 				<div class="container">\
 					<div class="row">\
 							<div class="col-lg-6">\
-								<b><p><img id="pic" src="images/marj.jpg" alt="Picture of Marjorie" height="75%" width="75%" ></p>\
+								<b><p><img id="pic" src="images/profile.jpg" alt="Picture of Marjorie" height="75%" width="75%" ></p>\
 							</div>\
 							<div class="col-lg-6">\
 								<p><a href="mailto:marjorie.cuerdo@gmail.com">marjorie.cuerdo@gmail.com</a><br></p>\
